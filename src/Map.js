@@ -5,9 +5,8 @@ import Optionsfield from './components/Optionsfield';
 import './Map.css';
 import data from './data.json';
 
-mapboxgl.accessToken =
-  // 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA';
-  'pk.eyJ1IjoiY3JhaW92YW9ubGluZSIsImEiOiJjanU3NG1zY2EwYTI5M3pvNWJnbmQxOG1pIn0.rdgtF2NMRdEbpXTbFpVvqw';
+mapboxgl.accessToken = 'pk.eyJ1IjoiY3JhaW92YW9ubGluZSIsImEiOiJjanU3NG1zY2EwYTI5M3pvNWJnbmQxOG1pIn0.rdgtF2NMRdEbpXTbFpVvqw';
+
 const Map = () => {
   const options = [
     {
